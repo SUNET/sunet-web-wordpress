@@ -1,4 +1,4 @@
-FROM wordpress:4.9
+FROM wordpress:php8.5-apache
 
 
 RUN apt-get update && \
